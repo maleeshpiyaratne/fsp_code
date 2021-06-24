@@ -1,0 +1,11 @@
+//SWITCH FUNCTION
+//Function in one line: SWITCH = (on ->   -> OFF) .
+
+SWITCH = OFF,
+OFF = (on -> ON),
+ON = (off -> OFF) .
+
+SWITCH2 = OFF,
+OFF = (on -> (off -> OFF)).
+
+SWITCH3 = (on -> off -> SWITCH3) .
